@@ -167,14 +167,14 @@ a {
 
 .sect__features {
     display: flex;
-    width: 100%;
+    width: 1440px;
     margin-block-start: 60px;
     justify-content: space-evenly;
     align-items: center;
     gap: 24px;
     line-height: 180%;
-    padding-inline: 45px;
     padding-block-end: 50px;
+    justify-self: center;
 }
 
 .sect__what-we-do {
@@ -240,7 +240,8 @@ a {
 
 .grid-wrapper {
     display: grid;
-    gap: 30px;
+    row-gap: 30px;
+    column-gap: 15px;
     grid-template-areas:
         'one'
         'two'
